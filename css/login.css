@@ -34,7 +34,7 @@ aside{
     background-color: #0496CC;
     position: absolute;
     left: 0%;
-    border-bottom-right-radius: 30px;
+    border-bottom-right-radius: 10px;
     flex-direction: column;
     overflow: hidden;
     border-left: none;
@@ -83,12 +83,6 @@ aside{
 
 .barrinha:nth-child(2){
     margin: 8px;
-}
-
-i{
-    font-size: 22pt;
-    color: white;
-    cursor: pointer;
 }
 
 aside a{
@@ -169,7 +163,7 @@ aside a:hover{
 .two{
     width: 100%;
     height: calc(45% - 25px);
-    background-color: red;
+    background-color: #0496CC;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -191,15 +185,98 @@ aside a:hover{
 
 .conteudo{
     background-color: white;
-    height: 80%;
+    height: 90%;
     width: calc(96% - 210px);
-    margin-left: 1.5vw;
+    margin-left: 2vw;
+    /* margin-top: 2.5vw; */
     border-radius: 10px;
     box-shadow: 0 0 20px white;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
+}
+
+.conteudo2{
+
+    background-color: white ;
+    height: 90%;
+    width: 90%;
+    margin-left: 2vw;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 0 0 20px white;
+    margin-bottom: 2vh;  
+}
+
+.conteudo2 p{
+    margin-top: 3vh;
+    margin: 0;
+    width: 50%;
+    height: 85%;
+    margin-left: 2.5vw;
+}
+
+.social{
+    width: 50px;
+    height: 60%;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 0 0 30px white;
+}
+
+.i1{
+    width: 100%;
+    height: calc(100% / 3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    transition: 0s;
+    cursor: pointer;
+}
+
+.i1:nth-child(3){
+    border: none;
+}
+
+.i1 i{
+    color: black;
+    font-size: 24pt;
+    transition: 0.5s;
+    
+}
+
+.i1:nth-child(1):hover{
+    background: #3B5998;
+}
+
+.i1:nth-child(1):hover i{
+    color: white;
+}
+
+.i1:nth-child(2):hover{
+    background: radial-gradient(at bottom left, #F7D26F,#F77100,#E7006B,#9E2AB6, #4559CD);
+}
+
+.i1:nth-child(2):hover i{
+    color: white ;
+}
+
+.i1:nth-child(3):hover{
+    background-color: #1B95E0;
+}
+
+.i1:nth-child(3):hover i{
+    color: white;
 }
 
 h3{
